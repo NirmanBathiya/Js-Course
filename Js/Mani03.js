@@ -1,4 +1,4 @@
-/*var conf = confirm("do you play rock paper scissors");
+var conf = confirm("do you play rock paper scissors");
 if(conf){
 
 var game = prompt("Enter>>>>Rock,Paper or scissors");
@@ -50,12 +50,10 @@ console.log(MyArry);
 
 const Newone = MyArry.sh 
 
-const initGame = () => {
-    const startGame = confirm("Shall we play rock, paper, or scissors?");
-    startGame ? playGame() : alert("Ok, maybe next time.");
-  };
 
-console.log(initGame());*/
+
+
+//same part with function
 
 const initGame = () => {
     const startGame = confirm("Shall we play rock, paper, or scissors?");
